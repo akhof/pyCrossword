@@ -1,6 +1,8 @@
 # pyCrossword
-desc
-# example
+pyCrossword is a python module for creating crossword puzzles.
+# how To
+Look here for the [howto-page](/pyCrossword/src/pyCrossword/__init__.py).
+## example
     #!/usr/bin/env python
     # -*- coding: utf-8 -*-
     
@@ -46,7 +48,7 @@ desc
             print("RESULT #{}:".format(no))
             printCrossword(result)
             print("\n")
-## Output
+### Output
                             P               
                     S       A               
             D E L P H I     R               
