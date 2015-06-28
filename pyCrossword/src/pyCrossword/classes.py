@@ -6,7 +6,7 @@ import time
 
 class Word():
     def __init__(self, word, *args, **kwds):
-        self.word = word.upper()
+        self.word = word.upper().replace(" ", "_")
         self.args = args
         self.kwds = kwds
         self.length = len(word)

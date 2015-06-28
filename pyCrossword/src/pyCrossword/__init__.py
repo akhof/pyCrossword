@@ -72,5 +72,8 @@ create_new_crossword(words, fieldconfig)
  |                    |_a list of Word()-objects
  |_ returns a Connection()-object
  |_ is starting the process in a thread. all finished pages (one result) are in the dict Connection.results
-
+createStrCrossword(result)
+ |_ returns the generated result
+printCrossword(result)
+ |_ prints the generated result
 """
